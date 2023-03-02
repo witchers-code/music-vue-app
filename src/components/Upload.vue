@@ -102,9 +102,7 @@ export default {
               comment_count: 0,
             };
             console.log("song", song);
-
-            // song.url = await task.snapshot.ref.getDownloadURL();
-            // console.log("song.url", song.url);
+            song.url = await task.snapshot.ref.getDownloadURL();
             const songRef = await songsCollection.add(song);
             const songSnapshot = await songRef.get();
             this.addSong(songSnapshot);
@@ -117,9 +115,6 @@ export default {
       });
 
       console.log(files);
-      //   if request.auth != null;
-      //   && request.resource.contentType == "audio/mpeg"
-      // request.resource.size < 10 * 1024 * 1024;
     },
     cancelUploads() {
       this.uploads.forEach((upload) => {
