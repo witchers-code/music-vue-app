@@ -51,7 +51,6 @@ export default {
     };
   },
   async created() {
-    console.log("create");
     const snapshot = await songsCollection
       .where("uid", "==", auth.currentUser.uid)
       .get();
@@ -78,18 +77,18 @@ export default {
       this.unsavedFlag = value;
     },
   },
-  beforeRouteLeave(to, from, next) {
-    if (!this.unsavedFlag) {
-      next();
-    } else {
-      const leave = confirm(
-        "You have unsaved changes. Are you sure you want to leave?"
-      );
-      next(leave);
-    }
+  // beforeRouteLeave(to, from, next) {
+  //   if (!this.unsavedFlag) {
+  //     next();
+  //   } else {
+  //     const leave = confirm(
+  //       "You have unsaved changes. Are you sure you want to leave?"
+  //     );
+  //     next(leave);
+  //   }
 
-    this.$refs.upload.cancelUploads();
-    next();
-  },
+  //   this.$refs.upload.cancelUploads();
+  //   next();
+  // },
 };
 </script>
