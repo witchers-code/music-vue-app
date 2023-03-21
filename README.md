@@ -2,6 +2,11 @@
 
 ### Live demo: https://music-vue-app-chi.vercel.app/
 
+![Screenshot 2023-03-21 at 11 07 17](https://user-images.githubusercontent.com/53602597/226574910-a3cd4f31-5b32-400c-aa63-d73530d98058.jpg)
+
+![Screenshot 2023-03-21 at 10 41 12](https://user-images.githubusercontent.com/53602597/226574970-c7b7e82a-0471-4655-bda1-1af4b401b557.jpg)
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
