@@ -1,6 +1,6 @@
 # Music Vue App
 
-### Live demo: https://music-vue-app-chi.vercel.app/
+### Live demo: https://music-vue-app-slavaboreyko.vercel.app/
 
 ![Screenshot 2023-03-21 at 11 07 17](https://user-images.githubusercontent.com/53602597/226574910-a3cd4f31-5b32-400c-aa63-d73530d98058.jpg)
 
