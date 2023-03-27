@@ -9,6 +9,7 @@
       <div class="container mx-auto flex items-center">
         <!-- Play/Pause Button -->
         <button
+          id="play-btn"
           @click.prevent="
             newSong(song)
             // toggleAudio();
